@@ -44,5 +44,7 @@ formSubmit();
 Please feel free to create a PR!
 
 ### Thanks to
+
 https://github.com/gillstrom/submitform
+
 https://github.com/DylanPiercey/submit-form
