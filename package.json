@@ -1,0 +1,24 @@
+{
+  "name": "dom-form-submit",
+  "version": "0.0.2",
+  "description": "Utility to create/submit form",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasnat/dom-form-submit"
+  },
+  "keywords": [
+    "form",
+    "submit",
+    "data",
+    "post",
+    "create",
+    "input",
+    "submit",
+    "submit-form",
+    "form",
+    "fill"
+  ],
+  "author": "Hasnat Ullah <hasnat.ullah@gmail.com",
+  "license": "MIT"
+}
