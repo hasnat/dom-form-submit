@@ -5,6 +5,7 @@ var addInputs = function(data, form) {
             var input = form.elements[el];
             if (!input) {
                 input = document.createElement('input');
+                input.type = 'hidden';
                 form.appendChild(input);
             }
             if (Array.isArray(input)) {

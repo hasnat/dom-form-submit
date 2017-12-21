@@ -1,6 +1,6 @@
 {
   "name": "dom-form-submit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Utility to create/submit form",
   "main": "index.js",
   "repository": {
