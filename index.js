@@ -20,7 +20,7 @@ var addInputs = function(data, form) {
 module.exports = function (data, opts) {
     data = data || {};
     opts = opts || {};
-    var form = opts.form || (opts.id && document.getElementById(opts.id));
+    var form = opts.form || (opts.id && document.getElementById(opts.id)) || (opts.name && document[opts.name]);
     if (!form) {
         form = document.createElement('form');
         form.style.display = 'none';

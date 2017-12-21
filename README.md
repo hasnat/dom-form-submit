@@ -16,13 +16,14 @@ var formSubmit = require('dom-form-submit');
 
 // Submit form with data (create or use existing form)
 formSubmit({a: 'b', c: 'd'}, {
-    id: "my-form-id"
+    id: 'my-form-id',
+    name: 'my-form-name'
 });
 
 // Submit an existing form.
 submit({a: 'b', c: 'd'}, {
-    method: "POST",
-    form: document.getElementById("my-form")
+    method: 'POST',
+    form: document.getElementById('my-form')
 });
 
 // Basically empty form submit
@@ -34,10 +35,9 @@ formSubmit();
 
 ```javascript
 {
-    method: "GET",
-    enctype: "application/x-www-form-urlencoded",
-    target: "_self",
-    form
+    method: 'GET',
+    enctype: 'application/x-www-form-urlencoded',
+    target: '_self'
 }
 ```
 
