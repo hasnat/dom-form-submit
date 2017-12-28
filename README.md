@@ -1,4 +1,4 @@
-# Submit-Form
+# DOM-Form-Submit
 Utility build or use form and submit using provided data.
 This library will intelegently reuse the same form and perform minimal manipulations for optimum performance.
 
@@ -12,10 +12,10 @@ npm install dom-form-submit
 # Example
 
 ```javascript
-var formSubmit = require('dom-form-submit');
+var submit = require('dom-form-submit');
 
 // Submit form with data (create or use existing form)
-formSubmit({a: 'b', c: 'd'}, {
+submit({a: 'b', c: 'd'}, {
     id: 'my-form-id',
     name: 'my-form-name'
 });
@@ -27,7 +27,7 @@ submit({a: 'b', c: 'd'}, {
 });
 
 // Basically empty form submit
-formSubmit();
+submit();
 
 ```
 
