@@ -3,6 +3,9 @@
   "version": "0.0.5",
   "description": "Utility to create/submit form",
   "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hasnat/dom-form-submit"
@@ -20,5 +23,10 @@
     "fill"
   ],
   "author": "Hasnat Ullah <hasnat.ullah@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^11.5.1",
+    "jsdom-global": "^3.0.2",
+    "tape": "^4.8.0"
+  }
 }

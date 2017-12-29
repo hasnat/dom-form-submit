@@ -9,17 +9,11 @@ var addInputs = function(data, form) {
                 form.appendChild(input);
             }
             if (Array.isArray(input)) {
-                var valueFound = false;
-                for (var i = 0, len = input.length; i < len; i++) {
-                    if (input[i].value == data[el]) {
-                        input = input[i];
-                        valueFound = true;
-                        break;
-                    }
-                }
-                if (!valueFound) {
-                    input = input[0];
-                }
+                input = input.filter(function (i) {
+                    return i.value == data[el];
+                }).pop() || input.filter(function (i) {
+                    return i.checked;
+                }).pop() || input[0];
                 input.checked = true;
             }
             input.name = el;

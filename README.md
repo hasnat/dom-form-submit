@@ -2,6 +2,10 @@
 Utility build or use form and submit using provided data.
 This library will intelegently reuse the same form and perform minimal manipulations for optimum performance.
 
+[![Build Status](https://travis-ci.org/hasnat/dom-form-submit.svg)](https://travis-ci.org/hasnat/dom-form-submit)
+
+[![NPM](https://nodei.co/npm/dom-form-submit.png)](https://nodei.co/npm/dom-form-submit/)
+
 # Installation
 
 #### Npm
