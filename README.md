@@ -1,6 +1,6 @@
 # DOM-Form-Submit
 Utility build or use form and submit using provided data.
-This library will intelegently reuse the same form and perform minimal manipulations for optimum performance.
+This library will intelligently reuse the same form and perform minimal manipulations for optimum performance.
 
 [![Build Status](https://travis-ci.org/hasnat/dom-form-submit.svg)](https://travis-ci.org/hasnat/dom-form-submit)
 
