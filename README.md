@@ -18,11 +18,12 @@ npm install dom-form-submit
 ```javascript
 var submit = require('dom-form-submit');
 
-// Submit form with data (create or use existing form)
-submit({a: 'b', c: 'd'}, {
-    id: 'my-form-id',
-    name: 'my-form-name'
-});
+// Submit form with data (create or use existing form) with callback to run after submit
+submit(
+    {a: 'b', c: 'd'},
+    {id: 'my-form-id', name: 'my-form-name'},
+    function(submittedForm) {}      // callback with form element
+);
 
 // Submit an existing form.
 submit({a: 'b', c: 'd'}, {

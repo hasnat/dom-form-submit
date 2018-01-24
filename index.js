@@ -22,9 +22,10 @@ var addInputs = function(data, form) {
     }
 };
 
-module.exports = function (data, opts) {
+module.exports = function (data, opts, cb) {
     data = data || {};
     opts = opts || {};
+    cb = typeof cb === 'function' ? cb : function() {};
     var form = opts.form || (opts.id && document.getElementById(opts.id)) || (opts.name && document[opts.name]);
     if (!form) {
         form = document.createElement('form');
@@ -39,4 +40,5 @@ module.exports = function (data, opts) {
     }
     addInputs(data, form);
     form.submit();
+    cb(form);
 };

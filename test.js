@@ -38,6 +38,21 @@ test('Creates form by id', (t) => {
     })
 });
 
+test('Returns form in optional callback', (t) => {
+    const formId = 'testForm';
+    submit(
+        {},
+        {
+            id: formId,
+            submit: () => {}
+        },
+        (form) => {
+            t.equal(form.id, formId);
+            t.end();
+        }
+    )
+});
+
 
 test('Created forms are display none', (t) => {
     clearDOM('<form id="existingForm" ><input name="a" value="testvalue" /></form>');
