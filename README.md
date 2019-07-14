@@ -4,7 +4,7 @@ This library will intelligently reuse the same form and perform minimal manipula
 
 [![Build Status](https://travis-ci.org/hasnat/dom-form-submit.svg)](https://travis-ci.org/hasnat/dom-form-submit)
 
-[![NPM](https://nodei.co/npm/dom-form-submit.png)](https://nodei.co/npm/dom-form-submit/)
+[![NPM](https://nodei.co/npm/dom-form-submit.png)](https://nodei.co/npm/dom-form-submit/) [![Greenkeeper badge](https://badges.greenkeeper.io/hasnat/dom-form-submit.svg)](https://greenkeeper.io/)
 
 # Installation
 
