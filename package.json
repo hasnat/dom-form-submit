@@ -25,7 +25,7 @@
   "author": "Hasnat Ullah <hasnat.ullah@gmail.com",
   "license": "MIT",
   "devDependencies": {
-    "jsdom": "^11.5.1",
+    "jsdom": "^15.1.1",
     "jsdom-global": "^3.0.2",
     "tape": "^4.8.0"
   }
